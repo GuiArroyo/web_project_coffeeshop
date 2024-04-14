@@ -26,8 +26,8 @@
     margin-right: 80px;
   }
   .nav__logo {
-    height: 39px;
-    width: 105px;
+    height: 40px;
+    width: 100px;
     margin-top: 30px;
   }
   .nav__links {
@@ -49,13 +49,13 @@
   }
   
   .header__title {
-    max-width: 709px;
-    margin-top: 183px;
+    max-width: 700px;
+    margin-top: 190px;
     margin-left: 80px;
     font-family: "Noto Serif", "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 58px;
+    font-size: 60px;
     line-height: 72px;
     color: #2f80ed;
   }
@@ -63,15 +63,15 @@
     color: #000000;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 58px;
+    font-size: 60px;
     font-weight: 500;
     line-height: 72px;
     letter-spacing: -1px;
     margin-left: 0;
   }
   .header__description {
-    max-width: 683px;
-    margin-top: 28px;
+    max-width: 680px;
+    margin-top: 30px;
     margin-left: 80px;
     font-family: "Noto Serif", "Times New Roman", Times, serif;
     font-style: normal;
@@ -82,9 +82,9 @@
   .header__image {
     position: absolute;
     right: 0;
-    height: 568px;
-    width: 646px;
-    margin-top: 94px;
+    height: 570px;
+    width: 650px;
+    margin-top: 90px;
     margin-right: 5px;
   }
   .header__footer {
@@ -134,8 +134,8 @@
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: 45px;
+    line-height: 55px;
     max-width: 580px;
     padding-top: 100px;
     padding-left: 80px;
@@ -146,8 +146,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    max-width: 438px;
-    padding-top: 24px;
+    max-width: 440px;
+    padding-top: 25px;
     padding-left: 80px;
     margin-bottom: 80px;
   }
@@ -166,9 +166,91 @@
   }
   .recipes__iframe {
     width: 480px;
-    height: 273px;
+    height: 270px;
   }
   .recipes__video-item > p {
     margin-top: 25px;
   }
-   
+  .reservation {
+    background-color: #D9E7FF; 
+    background-image: url(../images/background_reservation.svg);  
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+     espaço vertical visível na tela do dispositivo. */
+    color: #000000;   
+}
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+.form {
+  height: 100vh;
+  width: 385px;
+}
+.reservation__form {
+  margin-left: auto;
+  margin-right: auto;
+}
+.reservation__form_mod {
+}
+.reservation__input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reservation__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+.reservation__item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding-left: 20px;
+}
+.reservation__button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 385px;
+    background-color: #2f80ed;
+    color: #ffffff;
+    border-radius: 4px; 
+    height: 60px;  
+    margin-bottom: 32px; 
+}
+.reservation__label_start {
+  align-self: flex-start;
+}
+.reservation__item_check-align {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+.reservation__label_check {
+}
+
+  
