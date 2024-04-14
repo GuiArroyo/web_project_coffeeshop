@@ -161,9 +161,6 @@
     line-height: 30px;
     gap: 40px;
   }
-  .recipes__video-item {
-    /* não sei oque colocar aq ainda */
-  }
   .recipes__iframe {
     width: 480px;
     height: 270px;
@@ -178,7 +175,7 @@
     background-position: center; 
     height: 100vh; 
      espaço vertical visível na tela do dispositivo. */
-    color: #000000;   
+    color: #00000;   
 }
 .reservation__title {
   font-family: Inter;
