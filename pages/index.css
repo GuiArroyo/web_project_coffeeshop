@@ -1,9 +1,9 @@
 .page {
     min-width: 1100px;
     max-width: 1600px;
-    margin: 0 auto; /* Bloco centraliza */
-    padding: 0 20px; /* Adiciona um espaçamento interno */
-    box-sizing: border-box; /* Garante que o padding não altere a largura máxima */
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 16px; 
     line-height: 20px;
@@ -129,13 +129,14 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding-top: 100px; 
   }
   .recipes__title {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 44px;
+    line-height: 52px;
     max-width: 580px;
     padding-top: 100px;
     padding-left: 80px;
@@ -146,8 +147,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    max-width: 440px;
-    padding-top: 25px;
+    max-width: 438px;
+    padding-top: 24px;
     padding-left: 80px;
     margin-bottom: 80px;
   }
@@ -159,23 +160,29 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    gap: 40px;
+    gap: 40px;   
   }
   .recipes__iframe {
     width: 480px;
-    height: 270px;
+    height: 273px; 
   }
   .recipes__video-item > p {
     margin-top: 25px;
   }
-  .reservation {
-    background-color: #D9E7FF; 
+  
+  .recipes__video-caption {
+    justify-content: space-between;  
+    display: flex 
+  }
+
+.reservation {
+    background-color: #D9E7FF;
     background-image: url(../images/background_reservation.svg);  
     background-size: cover; 
     background-position: center; 
-    height: 100vh; 
-     espaço vertical visível na tela do dispositivo. */
-    color: #00000;   
+    height: 100vh;   
+    color: #000000;    
+    padding-top: 100px;
 }
 .reservation__title {
   font-family: Inter;
@@ -183,7 +190,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 100px;
+  
   text-align: center;
   margin-top: 0;
   margin-left: auto;
@@ -198,12 +205,11 @@
   margin-left: auto;
   margin-right: auto;
 }
-.reservation__form_mod {
-}
 .reservation__input-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: none; 
 }
 .reservation__label {
   font-family: Inter;
@@ -248,6 +254,9 @@
   margin-right: 12px;
 }
 .reservation__label_check {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
   
