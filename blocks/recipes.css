@@ -1,6 +1,4 @@
-.content {
-  color: #ffffff;
-}
+
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
@@ -8,6 +6,7 @@
   background-position: center;
   height: 100vh;
   padding-top: 100px; 
+  color: #ffffff;
 }
 .recipes__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;

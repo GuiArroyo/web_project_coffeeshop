@@ -73,7 +73,7 @@
   margin-right: 12px;
 }
 .reservation__label_check {
-  display: flex;
+  display: block;
   gap: 12px;
   align-items: center;
 }
